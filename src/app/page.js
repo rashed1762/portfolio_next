@@ -1,6 +1,7 @@
 "use client"
 
 import Homepage from "@/components/Homepage/Homepage";
+import PreLoader from "@/components/Preloader/preloader";
 
 
 export default function Home() {

@@ -5,7 +5,16 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {
+  theme:{
+    screens: {
+      'xxs': '320px',
+      'xs': '480px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      'xxl':'1560px'
+    }, 
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -17,6 +26,7 @@ module.exports = {
         'jost': ['Jost', 'sans-serif'],
         'cormorant': ['Cormorant Garamond', 'serif'],
         'bai': ['Bai Jamjuree', 'sans-serif'],
+        'mont':['Montserrat', 'sans-serif']
       }
     },
 

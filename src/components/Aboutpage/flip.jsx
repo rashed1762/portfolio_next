@@ -22,8 +22,17 @@ const Flip = () => {
   return (
 
     <div>
-      <h1 className="text-4xl font-bold text-center mb-8">Tech Skill</h1>
-      <h3 className='text-xl font-bold underline mb-4 '>MERN Stack: </h3>
+        <div>
+        <h1 className=" text-start mb-8 font-bold font-mont lg:text-[190px] opacity-[.3]  mt-32
+        xxs:text-5xl xxs:mt-2
+        xs:text-5xl
+        sm:text-8xl
+        shadow
+        ">Skill</h1>
+        
+        </div>
+    <div className='max-w-screen-xl mx-auto mt-16'>
+    <h3 className='text-xl font-bold underline mb-4 '>MERN Stack: </h3>
     <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6  gap-4'>
 
     
@@ -39,8 +48,8 @@ const Flip = () => {
         </div>
 
         <div className='face back'>
-        <div className="radial-progress text-primary" style={{ "--value": 70 }} role="progressbar">
-  70%
+        <div className="radial-progress text-primary" style={{ "--value": 95 }} role="progressbar">
+  95%
 </div>
         </div>
         </div>
@@ -59,8 +68,8 @@ const Flip = () => {
         </div>
 
         <div className='face back'>
-        <div className="radial-progress text-primary" style={{ "--value": 70 }} role="progressbar">
-  70%
+        <div className="radial-progress text-primary" style={{ "--value": 95 }} role="progressbar">
+  95%
 </div>
         </div>
         </div>
@@ -80,8 +89,8 @@ const Flip = () => {
         </div>
 
         <div className='face back'>
-        <div className="radial-progress text-primary" style={{ "--value": 70 }} role="progressbar">
-  70%
+        <div className="radial-progress text-primary" style={{ "--value": 60 }} role="progressbar">
+  60%
 </div>
         </div>
         </div>
@@ -100,8 +109,8 @@ const Flip = () => {
         </div>
 
         <div className='face back'>
-        <div className="radial-progress text-primary" style={{ "--value": 70 }} role="progressbar">
-  70%
+        <div className="radial-progress text-primary" style={{ "--value": 80 }} role="progressbar">
+  80%
 </div>
         </div>
         </div>
@@ -120,8 +129,8 @@ const Flip = () => {
         </div>
 
         <div className='face back'>
-        <div className="radial-progress text-primary" style={{ "--value": 70 }} role="progressbar">
-  70%
+        <div className="radial-progress text-primary" style={{ "--value": 90 }} role="progressbar">
+  90%
 </div>
         </div>
         </div>
@@ -141,8 +150,8 @@ const Flip = () => {
         </div>
 
         <div className='face back'>
-        <div className="radial-progress text-primary" style={{ "--value": 70 }} role="progressbar">
-  70%
+        <div className="radial-progress text-primary" style={{ "--value": 80 }} role="progressbar">
+  80%
 </div>
         </div>
         </div>
@@ -212,8 +221,8 @@ const Flip = () => {
         </div>
 
         <div className='face back'>
-        <div className="radial-progress text-primary" style={{ "--value": 70 }} role="progressbar">
-  70%
+        <div className="radial-progress text-primary" style={{ "--value": 100 }} role="progressbar">
+  100%
 </div>
         </div>
         </div>
@@ -232,8 +241,8 @@ const Flip = () => {
         </div>
 
         <div className='face back'>
-        <div className="radial-progress text-primary" style={{ "--value": 70 }} role="progressbar">
-  70%
+        <div className="radial-progress text-primary" style={{ "--value": 80 }} role="progressbar">
+  80%
 </div>
         </div>
         </div>
@@ -252,8 +261,8 @@ const Flip = () => {
         </div>
 
         <div className='face back'>
-        <div className="radial-progress text-primary" style={{ "--value": 70 }} role="progressbar">
-  70%
+        <div className="radial-progress text-primary" style={{ "--value": 80 }} role="progressbar">
+  80%
 </div>
         </div>
         </div>
@@ -273,8 +282,8 @@ const Flip = () => {
         </div>
 
         <div className='face back'>
-        <div className="radial-progress text-primary" style={{ "--value": 70 }} role="progressbar">
-  70%
+        <div className="radial-progress text-primary" style={{ "--value": 100 }} role="progressbar">
+  100%
 </div>
         </div>
         </div>
@@ -283,6 +292,8 @@ const Flip = () => {
 
 
     </div>
+    </div>
+      
 
 
 

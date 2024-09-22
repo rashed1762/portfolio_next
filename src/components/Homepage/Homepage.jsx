@@ -5,12 +5,17 @@ import { useScroll, useTransform } from "framer-motion";
 import { Title } from "@/components/style";
 import Works from "./Works";
 import '../css/home.css'
+import Hero from "./Hero";
+import PreLoader from "../Preloader/preloader";
+import Homenew from "../Preloader/homenew";
 
 
 const Homepage = () => {
     const { scrollYProgress } = useScroll();
     const x = useTransform(scrollYProgress, [0, 1], [0, 0]);
   return (
+    <>
+    <PreLoader></PreLoader>
     <motion.div
     className="h-full w-screen"
    initial={{y:"-200vh"}}
@@ -19,41 +24,35 @@ const Homepage = () => {
    
    >
      <div className="">
-       <div className="mt-16  ">
-       <Title  style={{ x }}>Rashedul islam</Title>
+       <Homenew></Homenew>
        
-         <h1 className="flex justify-center items-center text-8xl  font-bai font-semibold 
-         s
-          ">Full stack web developer</h1>
-       </div>
-       <div className="flex justify-center items-center">
-       <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo harum vero, sunt repellendus obcaecati sint corporis dignissimos iusto porro quis voluptatum aut vel error rerum, non quam? Sint, illum quisquam.</p>
-       </div>
-
-      <section className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8">
-       
+      <section className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
+        
        <div >
-        <div  className="absolute">
-        
-        </div>
-        
-         <div className="relative" >
         <Works></Works>
        </div>
-       </div>
 
-       <div className=" mt-64 max-w-screen-sm">
+       <div className=" max-w-screen-sm  mt-16">
         <h1 className="text-6xl text-red-400 text-start" >Hello,</h1>
-        <h1 className="text-2xl mt-2 font-comorant font-bold text-">I am experianced at Frontend,MERN Stack and Wordpress Development</h1>
-       </div>
-       </section>    
+        <h1 className="text-2xl mt-2 font-comorant font-bold text-">I am experianced at MERN Stack,Frontend and Wordpress Development</h1>
+        <p className="mt-12">I'm a passionate Website Developer with a strong focus on creating responsive, user-friendly websites that provide seamless digital experiences. With expertise in HTML, CSS, JavaScript, and various modern web technologies, I love turning complex problems into intuitive, accessible web solutions.
 
-      
+Over the years, I have worked on a wide range of projects, from building custom websites for small businesses to optimizing and maintaining large-scale platforms. I am dedicated to writing clean, maintainable code and continuously learning to stay at the forefront of web development trends.
+
+When I’m not coding, you’ll find me exploring new technologies, diving into creative projects, or spending time in nature. Let's build something great together!</p>
+        <div className="flex gap-4 mt-4">
+        <button className="btn btn-outline btn-success">Success</button>
+
+        <button className="btn btn-outline btn-success">Success</button>
+        </div>
+
+       </div>
        
-       
+       </section>    
        
      </div>
      </motion.div>
+     </>
   )
 }
 

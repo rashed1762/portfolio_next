@@ -30,9 +30,20 @@ const Timeline = () => {
       ];
     
   return (
-    <div className="container mx-auto p-6">
-      <h1 className="text-4xl font-bold text-center mb-8">Education</h1>
-      <div className="relative">
+    <div className=" p-6 ">
+      <div>
+        <h1 className=" text-center mb-8 font-bold font-mont lg:text-[190px] opacity-[.3] absolute
+        xxs:text-5xl
+        xs:text-5xl
+        sm:text-8xl
+        shadow
+        ">Education</h1>
+        
+        </div>
+      <div className="relative container mx-auto mt-60
+      xxs:mt-16
+      sm:mt-32
+      lg:mt-48">
         <div className="border-r-2 border-gray-900 absolute h-full top-0 left-1/2 transform -translate-x-1/2 "></div>
         <div className="space-y-12 ">
           {timelineData.map((event, index) => (
