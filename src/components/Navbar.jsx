@@ -1,8 +1,10 @@
 "use client"
 import Link from 'next/link'
+import img1 from '../../src/assests/telephone-sketch-icon-vector-10142760-removebg-preview.png'
 import React, { useState } from 'react'
 import NavLink from './navLink'
 import { motion, stagger } from 'framer-motion'
+import Image from 'next/image'
 
 const Navbar = () => {
     const [open,setOpen]=useState(false)
@@ -121,7 +123,7 @@ const Navbar = () => {
      )}
      
     </div>
-    <a className="btn btn-ghost text-xl border-2 border-indigo-400 ">Rashedul islam</a>
+    <a className="btn btn-ghost text-xl border-2 border-indigo-400">Rashedul islam</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 gap-4 font-bold">
@@ -131,7 +133,8 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+   <Image className="h-[70px] w-[70px]" src={img1}></Image>
+   <h1 className="font-marker underline">+880 1847158404</h1>
   </div>
 </div>
     </div>

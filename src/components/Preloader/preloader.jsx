@@ -12,9 +12,9 @@ const PreLoader = () => {
     <div className="preloader">
       <div className="texts-container">
         <span>Welcome</span>
-        <span>To My</span>
-        <span>Website</span>
-        <span>Website</span>
+        <span>To </span>
+        <span>Rashed.dev</span>
+        <span>Profile</span>
         
       </div>
     </div>

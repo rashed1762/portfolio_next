@@ -10,7 +10,7 @@
     
 }
     .landing__top {
-      padding: 30px 100px;
+      padding: 30px 00px;
       text-align: center;
       font-weight: 800;
       position: relative;
@@ -40,7 +40,7 @@
         .text-con {
           position: relative;
           overflow: hidden;
-          white-space: pre;
+         
           
           
         }
@@ -51,7 +51,6 @@
           opacity: 1;
           text-shadow: 15px 10px 10px grey;
 }
-
 
 
 

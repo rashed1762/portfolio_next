@@ -9,11 +9,16 @@ const Portfolio = () => {
 
  
   return (
-    <div
-   
-   >
-    <Portfoliosec></Portfoliosec>
-   </div>
+    <motion.div
+     className="h-full"
+    initial={{y:"-200vh"}}
+    animate={{y:"0%"}}
+    transition={{duration:1}}
+    >
+    <div>
+      <Portfoliosec></Portfoliosec>
+    </div>
+    </motion.div>
   )
 }
 

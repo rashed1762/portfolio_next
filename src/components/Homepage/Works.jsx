@@ -12,7 +12,7 @@ import Image from 'next/image';
 const Works = () => {
 
   return (
-    <div>
+    <div className=''>
          <div className="works" id="works">
             
       {/* left side */}

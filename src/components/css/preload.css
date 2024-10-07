@@ -13,14 +13,16 @@
     justify-content: center;
     color: white;
     overflow-x: hidden !important;
+    
 }
     .preloader .texts-container {
         display: flex;
+        
         align-items: center;
         justify-content: space-between;
         height: 60px;
-        width: 380px;
-        font-size: 20px;
+        width: 480px;
+        font-size: 30px;
         overflow: hidden;
         font-weight: 800;
         opacity: 0;

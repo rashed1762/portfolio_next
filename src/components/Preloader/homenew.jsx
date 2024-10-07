@@ -8,7 +8,7 @@ const Homenew = () => {
    
   return (
     
-      <div className="landing mt-32">
+      <div className="landing ">
         <section className="landing__top">
           <div className="sub
           xxs:text-[10px]
@@ -20,12 +20,12 @@ const Homenew = () => {
               {text1.split("").map((t, i) => (
                 <span key={i} className="text
                 
-                 xxs:text-[15px]
-                 xs:text-[40px]
-                 sm:text-[60px]
-                 md:text-[80px]
-                 lg:text-[100px]
-                 xl:text-[140px]
+                 xxs:text-[35px]
+                 xs:text-[55px]
+                 sm:text-[75px]
+                 md:text-[90px]
+                 lg:text-[120px]
+                 xl:text-[150px]
                  xxl:text-[190px]
                 ">
                   {t}
@@ -33,11 +33,13 @@ const Homenew = () => {
               ))}
             </span>
           </h1>
-
-          <h1 className="mt-32">Scroll Down</h1>
-              <div className="flex justify-center">
-                <Image src={img1} height={70} width={70}></Image>
-              </div>
+          
+            <h1 className="mt-32">Scroll Down</h1>
+            <div className="flex justify-center">
+              <Image src={img1} height={70} width={70}></Image>
+            </div>
+                
+          
           
         </section>
       </div>
