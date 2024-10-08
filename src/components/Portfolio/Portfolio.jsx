@@ -10,6 +10,7 @@ import img7 from '../../assests/hyde-furniture.netlify.app_ (1) (1).jpg'
 import img8 from '../../assests/cara-shop-website.netlify.app_.jpg'
 import img9 from '../../assests/furns-website.netlify.app_.jpg'
 import Image from 'next/image'
+import MagneticButton from '../AnimButton/Button'
 
 
 
@@ -236,6 +237,17 @@ const Portfoliosec = () => {
 
     </div>
 
+    <div className="flex flex-col justify-center items-center text-center font-bold mt-32">
+        <h1 className="text-6xl mb-8 font-marker font-bold">Have you any Project?</h1>
+
+        
+      
+        <MagneticButton >
+        <a href="/contact">
+        <button class="relative border-2 border-gray-800 bg-transparent py-2.5 px-5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-y-0 before:bg-gray-800 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-y-100 rounded-full before:hover:rounded-full mb-8 font-marker">Hire Me!</button></a>
+        </MagneticButton>
+        
+        </div>
       </div>
        
   )

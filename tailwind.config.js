@@ -44,11 +44,17 @@ module.exports = {
         '0%': { opacity: 0, transform: 'rotate(-180deg)' },
         '100%': { opacity: 1, transform: 'rotate(0deg)' },
       },
+      rotateWords: {
+        '0%, 10%': { opacity: 1, transform: 'translateY(0)' },
+        '20%, 100%': { opacity: 0, transform: 'translateY(-100%)' },
+      },
     },
     animation: {
       slideIn: 'slideIn 1s ease-out forwards',
       fadeInUp: 'fadeInUp 1.5s ease-out forwards',
       rotateIn: 'rotateIn 2s ease-out forwards',
+      'rotate-words': 'rotateWords 8s infinite',
+      
     },
 
   },

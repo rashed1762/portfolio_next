@@ -1,5 +1,6 @@
 "use client"
 
+import Speedial from "@/components/AnimButton/Speedial";
 import Homepage from "@/components/Homepage/Homepage";
 import PreLoader from "@/components/Preloader/preloader";
 
@@ -9,6 +10,7 @@ export default function Home() {
     <main className="flex  flex-col items-center justify-between p-24">
       
     <Homepage></Homepage>
+    
     </main>
   );
 }

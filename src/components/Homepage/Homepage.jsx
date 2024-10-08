@@ -11,6 +11,7 @@ import PreLoader from "../Preloader/preloader";
 import Homenew from "../Preloader/homenew";
 import Link from "next/link";
 import MagneticButton from "../AnimButton/Button";
+import Textrotate from "../AnimButton/Textrotate";
 
 
 const Homepage = () => {
@@ -46,8 +47,11 @@ const Homepage = () => {
        lg:ml-16
        
        ">
-        <h1 className="text-6xl text-red-400 text-start font-marker" >Hello,</h1>
-        <h1 className="text-2xl mt-2 font-comorant font-bold text-">I am experianced at MERN Stack,Frontend and Wordpress Development</h1>
+        <h1 className="text-6xl text-red-400 font-marker" >Hello,</h1>
+        <h1 className="text-[32px] mt-4 font-comorant font-bold flex gap-4
+        
+        
+        "><span classname="">I am  </span> <span><Textrotate></Textrotate></span> Developer</h1>
         <p className="mt-12">I'm a passionate Website Developer with a strong focus on creating responsive, user-friendly websites that provide seamless digital experiences. With expertise in HTML, CSS, JavaScript, and various modern web technologies, I love turning complex problems into intuitive, accessible web solutions.
 
 Over the years, I have worked on a wide range of projects, from building custom websites for small businesses to optimizing and maintaining large-scale platforms. I am dedicated to writing clean, maintainable code and continuously learning to stay at the forefront of web development trends.
@@ -59,9 +63,8 @@ When I’m not coding, you’ll find me exploring new technologies, diving into 
         </MagneticButton>
         <MagneticButton className="flex justify-center items-center "></MagneticButton>
 
-        <a href="rashedul_Islam.pdf" download >
-        <button className="btn btn-outline btn-accent btn-xs sm:btn-sm md:btn-md lg:btn-lg">Download Cv</button>
-                    </a>
+      
+                  
        
         </div>
 
@@ -70,12 +73,13 @@ When I’m not coding, you’ll find me exploring new technologies, diving into 
        </section>   
 
        <div className="flex flex-col justify-center items-center text-center font-bold mt-32">
-        <h1 className="text-6xl mb-8 font-marker font-bold">Hey chief! Lets Lern  about me.</h1>
+        <h1 className="text-6xl mb-8 font-marker font-bold">Hey chief! Lets Learn  about me.</h1>
 
         
-
+      
         <MagneticButton >
-        <button class="relative border-2 border-gray-800 bg-transparent py-2.5 px-5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-y-0 before:bg-gray-800 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-y-100 rounded-full before:hover:rounded-full">Let's Go</button>
+        <a href="/about">
+        <button class="relative border-2 border-gray-800 bg-transparent py-2.5 px-5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-y-0 before:bg-gray-800 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-y-100 rounded-full before:hover:rounded-full font-marker">Let's Go!</button></a>
         </MagneticButton>
         
         </div>

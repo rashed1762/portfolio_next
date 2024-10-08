@@ -86,7 +86,7 @@ const Navbar = () => {
         {url: "/contact" ,title: "Contact"},
     ]
   return (
-    <div className='h-full'>
+    <div className='h-full font-marker'>
        <div className="navbar h-full ">
   <div className="navbar-start gap-2">
     <div className="dropdown">
@@ -105,7 +105,7 @@ const Navbar = () => {
          animate="animate"
          closed="closed"
          tabIndex={0}
-         className="menu menu-sm dropdown-content w-screen h-screen bg-black text-white flex flex-col items-center justify-center gap-8 text-4xl">
+         className=" dropdown-content w-screen h-screen bg-black text-white flex flex-col items-center justify-center gap-8 z-40 text-4xl">
          {links.map((link)=>(
             <motion.div
             key={link.title}
@@ -123,7 +123,13 @@ const Navbar = () => {
      )}
      
     </div>
-    <a className="btn btn-ghost text-xl border-2 border-indigo-400">Rashedul islam</a>
+    <a className="btn btn-ghost text-xl border-2 border-indigo-400
+    xxs:text-[10px]
+    xs:text-[15px]
+    sm:text-xl
+    md:text-xl
+    lg:text-xl
+    ">Rashedul islam</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 gap-4 font-bold">

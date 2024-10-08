@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import TransitionProvider from "@/components/transitionProvider";
 import PreLoader from "@/components/Preloader/preloader";
+import Speedial from "@/components/AnimButton/Speedial";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
         <TransitionProvider>
           <>
           {children}
+          
           </>
           
           </TransitionProvider>

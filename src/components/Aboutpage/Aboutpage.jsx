@@ -34,7 +34,7 @@ const Aboutpage = () => {
         lg:text-[190px]
         shadow
         
-        '>Experiance</h1>
+        '>Experience</h1>
 
 
       </div>
