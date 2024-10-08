@@ -14,6 +14,7 @@ import MagneticButton from "../AnimButton/Button";
 import Textrotate from "../AnimButton/Textrotate";
 
 
+
 const Homepage = () => {
     const { scrollYProgress } = useScroll();
     const x = useTransform(scrollYProgress, [0, 1], [0, 0]);
@@ -27,7 +28,7 @@ const Homepage = () => {
    transition={{duration:1}}
    
    >
-     <div className="">
+     <div className="font-marker">
        <Homenew></Homenew>
        
       <section className="grid
@@ -58,9 +59,11 @@ Over the years, I have worked on a wide range of projects, from building custom 
 
 When I’m not coding, you’ll find me exploring new technologies, diving into creative projects, or spending time in nature. Let's build something great together!</p>
         <div className="  mt-4">
+          <a href='rashedul.pdf' download="resume">
         <MagneticButton >
         <button class="relative border-2 border-gray-800 bg-transparent py-2.5 px-5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-y-0 before:bg-gray-800 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-y-100 rounded-full before:hover:rounded-full"><span>Download CV</span>  <span className="flex justify-center items-center"><Image src={img3} height={30} width={30} className=""></Image></span></button>
         </MagneticButton>
+        </a>
         <MagneticButton className="flex justify-center items-center "></MagneticButton>
 
       

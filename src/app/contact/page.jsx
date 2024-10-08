@@ -86,7 +86,7 @@ const Contact = () => {
         <div>
         
           <a href="https://github.com/rashed1762" target='blank'><h1 className="flex justify-center items-center p-4"><Image className="h-[70px] w-[70px]" src={img4} ></Image> Github</h1></a>
-        <a href="https://github.com/rashed1762" target='blank'>
+        <a href="https://www.linkedin.com/in/rashed-islam-/" target='blank'>
         <h1 className="flex justify-center items-center"><Image className="h-[70px] w-[70px]" src={img1} ></Image> Linkdin</h1>
         </a>
         </div>

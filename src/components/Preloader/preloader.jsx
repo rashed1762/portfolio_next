@@ -9,7 +9,7 @@ const PreLoader = () => {
     preLoaderAnim();
   }, []);
   return (
-    <div className="preloader">
+    <div className="preloader font-marker">
       <div className="texts-container">
         <span>Welcome</span>
         <span>To </span>

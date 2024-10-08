@@ -24,8 +24,8 @@ import '../css/externalstyle.css'
 
 const Aboutpage = () => {
   return (
-    <div>
-      <div className='mt-16'>
+    <div className='font-marker'>
+      <div className='mt-16 '>
       <h1 className='flex justify-start items-center   font-mont font-bold 
         xxs:text-5xl
         xs:text-5xl

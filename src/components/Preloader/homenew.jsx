@@ -16,10 +16,10 @@ const Homenew = () => {
           <h1 className="landing__main 
           
           ">
-          <span className="text-con ">
+          <span className="text-con  ">
               {text1.split("").map((t, i) => (
                 <span key={i} className="text
-                
+                spacing-
                  xxs:text-[35px]
                  xs:text-[55px]
                  sm:text-[75px]
@@ -34,7 +34,7 @@ const Homenew = () => {
             </span>
           </h1>
           
-            <h1 className="mt-32">Scroll Down</h1>
+            <h1 className="mt-32 font-marker">Scroll Down</h1>
             <div className="flex justify-center">
               <Image src={img1} height={70} width={70}></Image>
             </div>
