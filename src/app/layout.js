@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import TransitionProvider from "@/components/transitionProvider";
 import PreLoader from "@/components/Preloader/preloader";
 import Speedial from "@/components/AnimButton/Speedial";
+import toast, { Toaster } from 'react-hot-toast';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
        
         <TransitionProvider>
           <>
+          <Toaster />
           {children}
           
           </>

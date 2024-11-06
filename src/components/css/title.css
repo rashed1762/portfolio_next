@@ -1,0 +1,10 @@
+.img-one {
+    display: none;   
+}
+
+.text:hover  ~ .img-one {
+    display: block;
+	  position: absolute;
+    z-index: -1;
+    transition: 0.9s ease-out;
+}

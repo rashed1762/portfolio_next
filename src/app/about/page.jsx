@@ -5,6 +5,7 @@ import Aboutpage from '@/components/Aboutpage/Aboutpage';
 import Flip from '@/components/Aboutpage/flip';
 import MagneticButton from '@/components/AnimButton/Button';
 
+
 const page = () => {
   return (
     <motion.div

@@ -23,7 +23,7 @@ const Flip = () => {
 
     <div>
         <div>
-        <h1 className=" text-start mb-8 font-bold font-mont lg:text-[190px] opacity-[.3]  mt-32
+        <h1 className=" text-center mb-8 font-bold font-mont lg:text-[190px] opacity-[.3]  mt-32
         xxs:text-5xl xxs:mt-2
         xs:text-5xl
         sm:text-8xl

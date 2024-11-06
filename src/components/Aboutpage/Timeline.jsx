@@ -32,7 +32,7 @@ const Timeline = () => {
   return (
     <div className=" p-6 ">
       <div>
-        <h1 className=" text-center mb-8 font-bold font-mont lg:text-[190px] opacity-[.3] absolute
+        <h1 className=" text-center mb-8 font-bold font-mont lg:text-[190px] opacity-[.3] 
         xxs:text-5xl
         xs:text-5xl
         sm:text-8xl

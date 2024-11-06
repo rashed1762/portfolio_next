@@ -22,11 +22,12 @@ import Flip from './flip'
 import Service from './Service'
 import '../css/externalstyle.css'
 
+
 const Aboutpage = () => {
   return (
     <div className='font-marker'>
       <div className='mt-16 '>
-      <h1 className='flex justify-start items-center   font-mont font-bold 
+      <h1 className='flex justify-center items-center   font-mont font-bold 
         xxs:text-5xl
         xs:text-5xl
         sm:text-8xl
@@ -88,6 +89,7 @@ const Aboutpage = () => {
       
       <Timeline />
       <Service></Service>
+      
     </div>
             
           

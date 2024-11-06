@@ -126,7 +126,7 @@ const Portfoliosec = () => {
     
 {/* fushion........................................................................ */}
       <div className=''>
-        <h1 className='text-2xl font-bold mb-2 flex justify-center items-center'>DOM-INNO Concrete</h1>
+        <h1 className='text-2xl font-bold mb-2 flex justify-center items-center'>Fushion Resturant</h1>
         <Image className='projectimg' src={img11} ></Image>
         <h1 className='flex justify-center items-center  mt-4'><span className='text-xl font-bold text-red-400'> Technology: </span> Wordpress,Elementor</h1>
         <div className='flex justify-center items-center'>
