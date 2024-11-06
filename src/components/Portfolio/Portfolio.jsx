@@ -9,6 +9,8 @@ import img6 from '../../assests/rmc.dominno-bd.com_ (2) (1).jpg'
 import img7 from '../../assests/hyde-furniture.netlify.app_ (1) (1).jpg'
 import img8 from '../../assests/cara-shop-website.netlify.app_.jpg'
 import img9 from '../../assests/furns-website.netlify.app_.jpg'
+import img10 from '../../assests/twinklerscare.com_.png'
+import img11 from '../../assests/test.affix-bd.com_wp_.png'
 import Image from 'next/image'
 import MagneticButton from '../AnimButton/Button'
 
@@ -94,6 +96,48 @@ const Portfoliosec = () => {
         
       </div>
 {/* rmc........................................................................ */}
+
+<div className=''>
+        <h1 className='text-2xl font-bold mb-2 flex justify-center items-center'>Twinklers</h1>
+        <Image className='projectimg' src={img10} ></Image>
+        <h1 className='flex justify-center items-center  mt-4'><span className='text-xl font-bold text-red-400'> Technology: </span> Wordpress,Elementor</h1>
+        <div className='flex justify-center items-center'>
+        
+        <a target={'_blank'} href="https://twinklerscare.com"><button  className="btn btn-outline btn-accent mt-4 ml-4">Live Site</button></a> 
+        </div>
+        
+        
+      </div>
+
+
+{/* onlinebazar........................................................................ */}
+      
+      {/* onlinebazar........................................................................ */}
+
+    </div>
+    </section>
+
+
+    <section className="mt-16">
+    
+
+    <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2  gap-4 ml-20 mr-20'>
+
+    
+{/* fushion........................................................................ */}
+      <div className=''>
+        <h1 className='text-2xl font-bold mb-2 flex justify-center items-center'>DOM-INNO Concrete</h1>
+        <Image className='projectimg' src={img11} ></Image>
+        <h1 className='flex justify-center items-center  mt-4'><span className='text-xl font-bold text-red-400'> Technology: </span> Wordpress,Elementor</h1>
+        <div className='flex justify-center items-center'>
+        
+        <a target={'_blank'} href="https://test.affix-bd.com/wp"><button  className="btn btn-outline btn-accent mt-4 ml-4">Live Site</button></a> 
+        </div>
+        
+        
+      </div>
+{/* fushion........................................................................ */}
+
 
 
 
