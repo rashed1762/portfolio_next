@@ -13,10 +13,10 @@ import img9 from "../../../public/assest/img/nodejs.png"
 import img10 from "../../../public/assest/img//netlify.png"
 import img11 from "../../../public/assest/img/mongodb.png"
 import img12 from "../../../public/assest/img/mongoose.png"
-import img13 from "../../../public/assest/img/vscode.png"
+import img13 from "../../../public/assest/img/elementor.png"
 import img14 from "../../../public/assest/img/firebase.png"
-import img15 from "../../../public/assest/img/ss-removebg-preview.png"
-import img16 from "../../../public/assest/img/github1.png"
+import img15 from "../../../public/assest/img/pro.jpeg"
+import img16 from "../../../public/assest/img/bakery.png"
 
 const Flip = () => {
   return (
@@ -294,6 +294,79 @@ const Flip = () => {
     </div>
     </div>
       
+    <div className='max-w-screen-xl mx-auto mt-32'>
+    <h3 className='text-xl font-bold underline mb-4 '>Wordpress: </h3>
+    <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6  gap-4'>
+
+    
+<div>
+        <div>
+        <div className='card'>
+        <div className='face front'>
+            <div className='img'>
+            <Image  src={img13} height={60} width={60} alt ></Image>
+            <h1 className='flex justify-center items-center mt-1 '>Elementor</h1>
+            </div>
+        
+        </div>
+
+        <div className='face back'>
+        <div className="radial-progress text-primary" style={{ "--value": 95 }} role="progressbar">
+  95%
+</div>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <div>
+        <div>
+        <div className='card'>
+        <div className='face front'>
+            <div className='img'>
+            <Image  src={img15} height={70} width={90} className='rounded-full' alt ></Image>
+            <h1 className='flex justify-center items-center mt-1 '>Elementor Pro</h1>
+            </div>
+        
+        </div>
+
+        <div className='face back'>
+        <div className="radial-progress text-primary" style={{ "--value": 95 }} role="progressbar">
+  95%
+</div>
+        </div>
+        </div>
+    </div>
+    </div>
+
+
+    <div>
+        <div>
+        <div className='card'>
+        <div className='face front'>
+            <div className='img'>
+            <Image className='rounded-full'  src={img16} height={60} width={60} alt ></Image>
+            <h1 className='flex justify-center items-center mt-1 '>WP Bakery</h1>
+            </div>
+        
+        </div>
+
+        <div className='face back'>
+        <div className="radial-progress text-primary" style={{ "--value": 60 }} role="progressbar">
+  60%
+</div>
+        </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+
+    {/* second row */}
+
+    
+    </div>
 
 
 

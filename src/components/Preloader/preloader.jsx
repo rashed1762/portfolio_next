@@ -9,7 +9,7 @@ const PreLoader = () => {
     preLoaderAnim();
   }, []);
   return (
-    <div className="preloader font-marker">
+    <div className="preloader font-marker bg-gradient-to-b from-black to-slate-500">
       <div className="texts-container">
         <span>Welcome</span>
         <span>To </span>

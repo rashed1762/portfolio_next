@@ -53,7 +53,7 @@ const Homepage = () => {
         
         
         "><span classname="">I am  </span> <span><Textrotate></Textrotate></span> Developer</h1>
-        <p className="mt-12">I'm a passionate Website Developer with a strong focus on creating responsive, user-friendly websites that provide seamless digital experiences. With expertise in HTML, CSS, JavaScript, and various modern web technologies, I love turning complex problems into intuitive, accessible web solutions.
+        <p className="mt-12">I'm a passionate Website Developer with a strong focus on creating responsive, user-friendly websites that provide seamless digital experiences. With expertise in HTML, CSS, JavaScript,Reactjs,NextJs,Wordpress and various modern web technologies, I love turning complex problems into intuitive, accessible web solutions.
 
 Over the years, I have worked on a wide range of projects, from building custom websites for small businesses to optimizing and maintaining large-scale platforms. I am dedicated to writing clean, maintainable code and continuously learning to stay at the forefront of web development trends.
 
